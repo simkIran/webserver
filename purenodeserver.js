@@ -8,5 +8,5 @@ function handler(req,res){
     res.write('Yeah, Go webserver!')
     res.end();
 }
-    const server=http.craeteServer(handler);
-    server.listen(3200);
+    const server=http.createServer(handler);
+    server.listen(3000);
